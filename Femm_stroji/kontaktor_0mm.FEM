@@ -1,0 +1,176 @@
+[Format]      =  4.0
+[Frequency]   =  0
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[DoSmartMesh] =  1
+[Depth]       =  15
+[LengthUnits] =  millimeters
+[ProblemType] =  planar
+[Coordinates] =  cartesian
+[ACSolver]    =  0
+[PrevType]    =  0
+[PrevSoln]    =  ""
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 0
+[BlockProps]  = 4
+  <BeginBlock>
+    <BlockName> = "zrak"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "baker_ven"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = -56.700000000000003
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "baker_not"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 56.700000000000003
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "jedro"
+    <Mu_x> = 1000
+    <Mu_y> = 1000
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+[CircuitProps]  = 0
+[NumPoints] = 34
+0	0	0	0
+6	0	0	0
+17	0	0	0
+29	0	0	0
+40	0	0	0
+46	0	0	0
+6	-12	0	0
+17	-12	0	0
+29	-12	0	0
+40	-12	0	0
+0	-14	0	0
+4	-18	0	0
+42	-18	0	0
+46	-14	0	0
+40	11.999999999999998	0	0
+29	12	0	0
+17	12	0	0
+6	12.000000000000004	0	0
+0	14.000000000000004	0	0
+4	18	0	0
+42	18	0	0
+46	13.999999999999996	0	0
+7.5	10.5	0	0
+7.5	-10.5	0	0
+15.5	-10.5	0	0
+15.5	10.5	0	0
+30.5	10.5	0	0
+38.5	10.5	0	0
+38.5	-10.5	0	0
+30.5	-10.5	0	0
+-80	-98	0	0
+126	-98	0	0
+126	98	0	0
+-80	98	0	0
+[NumSegments] = 37
+0	1	-1	0	0	0
+1	6	-1	0	0	0
+6	7	-1	0	0	0
+7	2	-1	0	0	0
+3	2	-1	0	0	0
+8	3	-1	0	0	0
+8	9	-1	0	0	0
+9	4	-1	0	0	0
+4	5	-1	0	0	0
+5	13	-1	0	0	0
+13	12	-1	0	0	0
+12	11	-1	0	0	0
+11	10	-1	0	0	0
+10	0	-1	0	0	0
+4	14	-1	0	0	0
+14	15	-1	0	0	0
+15	3	-1	0	0	0
+16	2	-1	0	0	0
+16	17	-1	0	0	0
+17	1	-1	0	0	0
+0	18	-1	0	0	0
+18	19	-1	0	0	0
+19	20	-1	0	0	0
+20	21	-1	0	0	0
+21	5	-1	0	0	0
+22	25	-1	0	0	0
+25	24	-1	0	0	0
+24	23	-1	0	0	0
+23	22	-1	0	0	0
+26	27	-1	0	0	0
+27	28	-1	0	0	0
+28	29	-1	0	0	0
+29	26	-1	0	0	0
+33	32	-1	0	0	0
+32	31	-1	0	0	0
+31	30	-1	0	0	0
+33	30	-1	0	0	0
+[NumArcSegments] = 0
+[NumHoles] = 0
+[NumBlockLabels] = 7
+22.800000000000001	13.5	4	-1	0	0	0	1	0
+22.800000000000001	-10.9	4	-1	0	0	0	1	0
+35.799999999999997	-1.2	3	-1	0	0	0	1	0
+11.1	-0.20000000000000001	2	-1	0	0	0	1	0
+15	70	1	-1	0	0	0	1	0
+11.199999999999999	11.300000000000001	1	-1	0	0	0	1	0
+34.299999999999997	11.199999999999999	1	-1	0	0	0	1	0

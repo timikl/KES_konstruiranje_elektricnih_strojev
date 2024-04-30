@@ -1,0 +1,59 @@
+[Format]      =  1
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[DoSmartMesh] =  1
+[Depth]       =  1000
+[LengthUnits] =  millimeters
+[ProblemType] =  planar
+[Coordinates] =  cartesian
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 2
+  <BeginBdry>
+    <BdryName> = "GND"
+    <BdryType> = 0
+    <Vs> = 0
+    <qs> = 0
+    <c0> = 0
+    <c1> = 0
+  <EndBdry>
+  <BeginBdry>
+    <BdryName> = "elektroda"
+    <BdryType> = 0
+    <Vs> = 1
+    <qs> = 0
+    <c0> = 0
+    <c1> = 0
+  <EndBdry>
+[BlockProps]  = 1
+  <BeginBlock>
+    <BlockName> = "Air"
+    <ex> = 1
+    <ey> = 1
+    <qv> = 0
+  <EndBlock>
+[ConductorProps]  = 0
+[NumPoints] = 8
+100	100	0	0	0
+100	-100	0	0	0
+-100	-100	0	0	0
+-100	100	0	0	0
+-10	10	0	0	0
+10	10	0	0	0
+10	-10	0	0	0
+-10	-10	0	0	0
+[NumSegments] = 8
+3	0	-1	1	0	0	0
+1	0	-1	1	0	0	0
+1	2	-1	1	0	0	0
+2	3	-1	1	0	0	0
+4	5	-1	2	0	0	0
+5	6	-1	2	0	0	0
+6	7	-1	2	0	0	0
+7	4	-1	2	0	0	0
+[NumArcSegments] = 0
+[NumHoles] = 0
+[NumBlockLabels] = 3
+1	-1	1	-1	0	0
+-1	61	1	-1	0	0
+-294	199	0	-1	0	0
